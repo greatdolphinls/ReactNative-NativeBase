@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "FoodOrderingApp",
+    "slug": "FoodOrderingApp",
+    "version": "9.1.1",
+    "orientation": "portrait",
+    "icon": "./assets/app-icon.png",
+    "splash": {
+      "image": "./assets/launchscreen.png",
+      "resizeMode": "cover"
+    },
+    "primaryColor": "#cccccc",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "io.market.nativebase.geekyants.swiggyapp",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "io.market.nativebase.geekyants.swiggyapp",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyC2LZQu4qesnrldWTCGnyV9ZI1yXZ2ErN0"
+        }
+      }
+    },
+
+    "androidStatusBar": {
+      "barStyle": "light-content"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "platforms": ["android", "ios"]
+  }
+}
